@@ -42,3 +42,4 @@ test("buscar por if", () => {
   const ifa = componente.container.querySelector("if")
   console.log(prettyDOM(ifa))
 });
+

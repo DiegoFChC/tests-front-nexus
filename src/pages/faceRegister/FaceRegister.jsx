@@ -56,7 +56,7 @@ function FaceRegister() {
   };
 
   function submit(values) {
-    handleFormSubmit(values);
+    //handleFormSubmit(values);
   }
   return (
     <>

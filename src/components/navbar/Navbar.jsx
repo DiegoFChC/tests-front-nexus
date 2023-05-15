@@ -46,11 +46,7 @@ const Navbar = () => {
             })}
             <LanguageIcon
               style={{ color: "white", fontSize: 40, cursor: "pointer" }}
-              onClick={() => {
-                i18n.language === "es"
-                  ? i18n.changeLanguage("en")
-                  : i18n.changeLanguage("es");
-              }}
+          
             />
           </Box>
         ) : (

@@ -53,11 +53,7 @@ function Register() {
         <div className="idioma">
           <LanguageIcon
             style={{ color: "black", fontSize: 40, cursor: "pointer" }}
-            onClick={() => {
-              i18n.language === "es"
-                ? i18n.changeLanguage("en")
-                : i18n.changeLanguage("es");
-            }}
+            
           />
         </div>
         <div
@@ -132,7 +128,7 @@ function Register() {
                 <button
                   type="submit"
                   className="w-full bg-gray-200 py-2 px-4 rounded-lg text-gray-900 hover:bg-gray-300 transition-colors"
-                  onClick={registro}
+                 
                 >
                   {t("register")}
                 </button>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684157587845" clover="3.2.0">
-  <project timestamp="1684157587845" name="All files">
-    <metrics statements="200" coveredstatements="2" conditionals="51" coveredconditionals="0" methods="76" coveredmethods="1" elements="327" coveredelements="3" complexity="0" loc="200" ncloc="200" packages="20" files="22" classes="22"/>
+<coverage generated="1684161882724" clover="3.2.0">
+  <project timestamp="1684161882724" name="All files">
+    <metrics statements="200" coveredstatements="27" conditionals="51" coveredconditionals="1" methods="76" coveredmethods="9" elements="327" coveredelements="37" complexity="0" loc="200" ncloc="200" packages="20" files="22" classes="22"/>
     <package name="src">
       <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\App.jsx">
@@ -15,33 +15,33 @@
       </file>
     </package>
     <package name="src.components.buttonIcon">
-      <metrics statements="7" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="7" coveredstatements="5" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="ButtonIcon.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\components\buttonIcon\ButtonIcon.jsx">
-        <metrics statements="7" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <metrics statements="7" coveredstatements="5" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
     </package>
     <package name="src.components.cardInformation">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="CardInformation.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\components\cardInformation\CardInformation.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.cardMenu">
-      <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
       <file name="CardMenu.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\components\cardMenu\CardMenu.jsx">
-        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
       </file>
     </package>
@@ -54,13 +54,13 @@
       </file>
     </package>
     <package name="src.components.imageSlider">
-      <metrics statements="15" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <metrics statements="15" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="1"/>
       <file name="ImageSlider.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\components\imageSlider\ImageSlider.jsx">
-        <metrics statements="15" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
+        <metrics statements="15" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
         <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="29" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
@@ -75,32 +75,32 @@
       </file>
     </package>
     <package name="src.components.loader">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Loader.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\components\loader\Loader.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.navDrawer">
-      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="NavDrawer.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\components\navDrawer\NavDrawer.jsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.navbar">
-      <metrics statements="12" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <metrics statements="12" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="1"/>
       <file name="Navbar.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\components\navbar\Navbar.jsx">
-        <metrics statements="12" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <metrics statements="12" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
@@ -125,10 +125,10 @@
       </file>
     </package>
     <package name="src.context">
-      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="Context.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\context\Context.jsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="2" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
@@ -183,12 +183,12 @@
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
       </file>
       <file name="links.js" path="D:\UNIVALLE\2023-I\Desarrollo II\tests\src\pages\home\links.js">
         <metrics statements="10" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>

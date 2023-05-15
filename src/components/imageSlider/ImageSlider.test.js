@@ -7,5 +7,5 @@ test("renders content", () => {
   const componente = render(
       <ImageSlider />
   );
-  console.log(componente);
+  componente.debug()
 });

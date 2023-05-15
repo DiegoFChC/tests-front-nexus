@@ -10,5 +10,5 @@ test("renders content", () => {
       <ButtonIcon />
     </BrowserRouter>
   );
-  console.log(componente);
+  componente.debug()
 });

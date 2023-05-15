@@ -16,5 +16,5 @@ test("renders content", () => {
       <NavDrawer navLinks={navLinksPage} />
     </BrowserRouter>
   );
-  console.log(componente);
+  componente.debug()
 });

@@ -10,5 +10,5 @@ test("renders content", () => {
       <CardMenu />
     </BrowserRouter>
   );
-  console.log(componente);
+  componente.debug()
 });

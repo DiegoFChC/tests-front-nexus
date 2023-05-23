@@ -1,6 +1,6 @@
 import "./buttonIcon.scss";
 import { useNavigate } from "react-router-dom";
-import LanguageIcon from "@mui/icons-material/Language";
+// import LanguageIcon from "@mui/icons-material/Language";
 import { useTranslation } from "react-i18next";
 import { Context } from "../../context/Context";
 import { useContext } from "react";
@@ -13,6 +13,7 @@ const ButtonIcon = ({ text, icon, link }) => {
   return (
     <div
       className="ButtonIcon"
+      data-testid="click"
       onClick={() => {
         link == "language"
           ? i18n.language === "es"

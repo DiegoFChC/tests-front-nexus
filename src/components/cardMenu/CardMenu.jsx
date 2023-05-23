@@ -10,6 +10,7 @@ const CardMenu = ({ title, description, image, number, color, path }) => {
   return (
     <div
       className="CardMenu"
+      data-testid="click"
       onClick={() => {
         navigate(path);
       }}

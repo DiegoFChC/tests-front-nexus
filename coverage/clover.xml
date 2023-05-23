@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684878078550" clover="3.2.0">
-  <project timestamp="1684878078550" name="All files">
-    <metrics statements="204" coveredstatements="60" conditionals="57" coveredconditionals="6" methods="93" coveredmethods="19" elements="354" coveredelements="85" complexity="0" loc="204" ncloc="204" packages="20" files="22" classes="22"/>
+<coverage generated="1684878945465" clover="3.2.0">
+  <project timestamp="1684878945465" name="All files">
+    <metrics statements="204" coveredstatements="61" conditionals="57" coveredconditionals="6" methods="93" coveredmethods="20" elements="354" coveredelements="87" complexity="0" loc="204" ncloc="204" packages="20" files="22" classes="22"/>
     <package name="src">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\App.jsx">
@@ -35,14 +35,14 @@
       </file>
     </package>
     <package name="src.components.cardMenu">
-      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="CardMenu.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\cardMenu\CardMenu.jsx">
-        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="6" count="2" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.header">

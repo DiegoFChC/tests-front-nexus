@@ -12,3 +12,29 @@ test("renders content", () => {
   );
   componente.debug()
 });
+
+test("Button click", () => {
+
+  const component = render(
+    <BrowserRouter>
+      <CardMenu />
+    </BrowserRouter>
+  );
+
+  const button = component.getByTestId("click");
+  fireEvent.click(button);
+
+});
+
+// test("color", () => {
+//   const color = "red"
+
+//   const component = render(
+//     <BrowserRouter>
+//       <CardMenu color={color} />
+//     </BrowserRouter>
+//   );
+
+//   component.getByText("rgba(102, 0, 0, 0.9)");
+
+// })

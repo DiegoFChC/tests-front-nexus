@@ -13,7 +13,20 @@ const ButtonIcon = ({ text, icon, link }) => {
   return (
     <div
       className="ButtonIcon"
-      
+      onClick={() => {
+        link == "language"
+          ? i18n.language === "es"
+            ? i18n.changeLanguage("en")
+            : i18n.changeLanguage("es")
+          : navigate(link);
+        link === "/" &&
+          context.setAppState({
+            loggedIn: false,
+            typeUser: "",
+            name: "",
+            token: "",
+          });
+      }}
     >
       <p>{text}</p>
       <img src={icon} alt="icon" />

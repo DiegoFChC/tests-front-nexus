@@ -13,7 +13,17 @@ const Rooms = () => {
   const navigate = useNavigate()
 
   function sendData() {
-    
+    fetch("http://127.0.0.1:8000/core/admin", {
+      method: "POST",
+      headers: {
+        Authorization: `Token 3e80d96045c1eface698dcb2a0e028fa8d356974`,
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify({ disponible: occupied, numero: number }),
+    }).then((res) => {
+      setNumber("");
+      setOccupied("");
+    });
   }
 
   function handleSubmit(e) {

@@ -8,7 +8,7 @@ import i18next from "i18next";
 import { languages } from "./translations/translations";
 import "./index.css";
 
-//i18next.init(languages);
+i18next.init(languages);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

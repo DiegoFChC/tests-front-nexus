@@ -4,7 +4,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { useNavigate } from "react-router-dom";
 
 const CardMenu = ({ title, description, image, number, color, path }) => {
-  const isNonMobile = useMediaQuery("(min-width:800px)");
+  // const isNonMobile = useMediaQuery("(min-width:800px)");
   const navigate = useNavigate();
 
   return (

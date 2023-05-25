@@ -117,9 +117,7 @@ const Login = () => {
                 <button
                   type="submit"
                   className="w-full bg-gray-200 py-2 px-4 rounded-lg text-gray-900 hover:bg-gray-300 transition-colors"
-                  onClick={() => {
-                    login();
-                  }}
+                  onClick={login}
                 >
                   {t("login")}
                 </button>

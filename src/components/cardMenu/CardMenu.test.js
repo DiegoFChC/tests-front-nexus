@@ -10,11 +10,10 @@ test("renders content", () => {
       <CardMenu />
     </BrowserRouter>
   );
-  componente.debug()
+  componente.debug();
 });
 
 test("Button click", () => {
-
   const component = render(
     <BrowserRouter>
       <CardMenu />
@@ -23,11 +22,10 @@ test("Button click", () => {
 
   const button = component.getByTestId("click");
   fireEvent.click(button);
-
 });
 
 // test("color", () => {
-//   const color = "red"
+//   const color = "red";
 
 //   const component = render(
 //     <BrowserRouter>
@@ -35,6 +33,18 @@ test("Button click", () => {
 //     </BrowserRouter>
 //   );
 
-//   component.getByText("rgba(102, 0, 0, 0.9)");
-
-// })
+//   // component.getByText("rgba(102, 0, 0, 0.9)");
+//   it("should render style", () => {
+//     component
+//       .expect(
+//         shallow(
+//           <div
+//             style={{
+//               backgroundColor: "rgba(102, 0, 0, 0.9)",
+//             }}
+//           />
+//         )
+//       )
+//       .to.have.style("backgroundColor", "rgba(102, 0, 0, 0.9)");
+//   });
+// });

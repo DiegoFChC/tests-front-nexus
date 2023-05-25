@@ -15,7 +15,7 @@ const CardMenu = ({ title, description, image, number, color, path }) => {
       <div className="container__CardMenu">
         <div className="bg" style={{ backgroundImage: `url(${image})` }}></div>
         <div
-          className={`color__bg `}
+          className={`color__bg ${color === "red" ? "red" : "purple"}`}
         ></div>
         <div className="number">{number}</div>
         <div className="text">

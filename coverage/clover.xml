@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686602350593" clover="3.2.0">
-  <project timestamp="1686602350593" name="All files">
-    <metrics statements="310" coveredstatements="75" conditionals="102" coveredconditionals="7" methods="137" coveredmethods="26" elements="549" coveredelements="108" complexity="0" loc="310" ncloc="310" packages="26" files="29" classes="29"/>
+<coverage generated="1686605968257" clover="3.2.0">
+  <project timestamp="1686605968257" name="All files">
+    <metrics statements="308" coveredstatements="76" conditionals="100" coveredconditionals="7" methods="136" coveredmethods="28" elements="544" coveredelements="111" complexity="0" loc="308" ncloc="308" packages="26" files="29" classes="29"/>
     <package name="src">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\App.jsx">
@@ -114,28 +114,26 @@
       <file name="NavDrawer.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\navDrawer\NavDrawer.jsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="5" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.navbar">
-      <metrics statements="13" coveredstatements="7" conditionals="8" coveredconditionals="3" methods="7" coveredmethods="1"/>
+      <metrics statements="11" coveredstatements="8" conditionals="6" coveredconditionals="3" methods="6" coveredmethods="3"/>
       <file name="Navbar.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\navbar\Navbar.jsx">
-        <metrics statements="13" coveredstatements="7" conditionals="8" coveredconditionals="3" methods="7" coveredmethods="1"/>
+        <metrics statements="11" coveredstatements="8" conditionals="6" coveredconditionals="3" methods="6" coveredmethods="3"/>
         <line num="16" count="4" type="stmt"/>
-        <line num="17" count="6" type="stmt"/>
-        <line num="18" count="6" type="stmt"/>
-        <line num="19" count="6" type="stmt"/>
-        <line num="20" count="5" type="stmt"/>
-        <line num="22" count="5" type="stmt"/>
-        <line num="27" count="5" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
-        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="80" count="0" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
       </file>
     </package>

@@ -7,6 +7,6 @@ test("renders content alert", () => {
   const componente = render(
       <AlertMessage />
   );
-  componente.debug()
+  componente.debug();
 });
 

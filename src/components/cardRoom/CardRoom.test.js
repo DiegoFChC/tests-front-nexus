@@ -16,3 +16,17 @@ test("renders content cardroom", () => {
   );
   componente.debug();
 });
+
+// test("Button click cardroom", () => {
+
+//   const component = render(
+//     <BrowserRouter>
+//       <I18nextProvider i18n={i18next}>
+//         <CardRoom />
+//       </I18nextProvider>
+//     </BrowserRouter>
+//   );
+
+//   const button = component.getByTestId("click2");
+//   fireEvent.click(button);
+// });

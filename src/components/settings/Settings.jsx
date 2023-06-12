@@ -17,7 +17,6 @@ const Settings = () => {
   return (
     <div className="Settings">
       <div
-        data-testid="click"
         className={`${open ? "menuToggle active" : "menuToggle"}`}
         onClick={() => {
           setOpen(!open);

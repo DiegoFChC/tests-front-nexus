@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686605968257" clover="3.2.0">
-  <project timestamp="1686605968257" name="All files">
-    <metrics statements="308" coveredstatements="76" conditionals="100" coveredconditionals="7" methods="136" coveredmethods="28" elements="544" coveredelements="111" complexity="0" loc="308" ncloc="308" packages="26" files="29" classes="29"/>
+<coverage generated="1686608060613" clover="3.2.0">
+  <project timestamp="1686608060613" name="All files">
+    <metrics statements="308" coveredstatements="85" conditionals="100" coveredconditionals="9" methods="136" coveredmethods="35" elements="544" coveredelements="129" complexity="0" loc="308" ncloc="308" packages="26" files="29" classes="29"/>
     <package name="src">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\App.jsx">
@@ -81,24 +81,24 @@
       </file>
     </package>
     <package name="src.components.imageSlider">
-      <metrics statements="15" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="1"/>
+      <metrics statements="15" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="8"/>
       <file name="ImageSlider.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\imageSlider\ImageSlider.jsx">
-        <metrics statements="15" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="1"/>
+        <metrics statements="15" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="8"/>
         <line num="11" count="4" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
-        <line num="16" count="10" type="stmt"/>
-        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="29" count="0" type="stmt"/>
+        <line num="14" count="21" type="stmt"/>
+        <line num="16" count="21" type="stmt"/>
+        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="1" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.loader">

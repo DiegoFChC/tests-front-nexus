@@ -7,11 +7,20 @@ import i18next from "i18next";
 
 test("renders content", () => {
   const componente = render(
-
-      <I18nextProvider i18n={i18next}>
-        <Settings />
-      </I18nextProvider>
-
+    <I18nextProvider i18n={i18next}>
+      <Settings />
+    </I18nextProvider>
   );
-  componente.debug()
+  componente.debug();
 });
+
+// test("Button click 2", () => {
+//   const component = render(
+//     <I18nextProvider i18n={i18next}>
+//       <Settings />
+//     </I18nextProvider>
+//   );
+
+//   const button = component.getByTestId("click");
+//   fireEvent.click(button);
+// });

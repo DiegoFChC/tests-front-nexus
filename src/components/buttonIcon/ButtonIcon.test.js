@@ -1,26 +1,45 @@
 import React from "react";
 import "@testing-library/jest-dom/extend-expect";
-import { render, fireEvent } from "@testing-library/react";
-import ButtonIcon from "./ButtonIcon";
 import { BrowserRouter } from "react-router-dom";
 
-test("renders content", () => {
-  const componente = render(
-    <BrowserRouter>
-      <ButtonIcon />
-    </BrowserRouter>
-  );
-  componente.debug()
-});
+import { render, fireEvent } from "@testing-library/react";
+import ButtonIcon from "./ButtonIcon";
+import { changeLanguage } from "../../functions/changeLanguage";
 
-test("Button click", () => {
+// Mockear la función changeLanguage
+jest.mock("../../functions/changeLanguage", () => ({
+  changeLanguage: jest.fn(),
+}));
 
-  const component = render(
-    <BrowserRouter>
-      <ButtonIcon />
-    </BrowserRouter>
-  );
+// Mockear la función navigate
+const mockNavigate = jest.fn();
+jest.mock("react-router-dom", () => ({
+  useNavigate: () => mockNavigate,
+}));
 
-  const button = component.getByTestId("click");
-  fireEvent.click(button);
+describe("ButtonIcon component", () => {
+  afterEach(() => {
+    jest.clearAllMocks();
+  });
+
+  test('render component ButtonIcon"', () => {
+    const component = render(
+      <ButtonIcon text="Button" icon="icon.png" link="language" />
+    );
+    component.debug()
+  });
+
+  test('should call changeLanguage when link is "language"', () => {
+    const { getByTestId } = render(
+      <ButtonIcon text="Button" icon="icon.png" link="language" />
+    );
+    const button = getByTestId("click");
+
+    fireEvent.click(button);
+
+    expect(mockNavigate).not.toHaveBeenCalled();
+    expect(changeLanguage).toHaveBeenCalledTimes(1);
+    expect(changeLanguage).toHaveBeenCalledWith(expect.any(Object));
+  });
+  
 });

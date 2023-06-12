@@ -23,16 +23,16 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">53.84% </span>
+                <span class="strong">30.76% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>7/13</span>
+                <span class='fraction'>4/13</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">37.5% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>3/8</span>
+                <span class='fraction'>0/8</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">53.84% </span>
+                <span class="strong">30.76% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/13</span>
+                <span class='fraction'>4/13</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -176,18 +176,18 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -278,14 +278,14 @@ const Navbar = () =&gt; {
   const [open, setOpen] = useState(false);
   const isNonMobile = useMediaQuery("(min-width:600px)");
   const [t, i18n] = useTranslation("homePage");
-  const navigate = useNavigate();
+  const navigate = <span class="cstat-no" title="statement not covered" >useNavigate();</span>
 &nbsp;
-  const navLinksPage = [
+  const navLinksPage = <span class="cstat-no" title="statement not covered" >[</span>
     { title: t("login"), path: "/login", icon: loginImage },
     { title: t("register"), path: "/register", icon: registerImage },
   ];
 &nbsp;
-  return (
+<span class="cstat-no" title="statement not covered" >  return (</span>
     &lt;div className="Navbar"&gt;
       &lt;div className="bg__video"&gt;
         &lt;div className="overlay"&gt;&lt;/div&gt;
@@ -293,12 +293,12 @@ const Navbar = () =&gt; {
           &lt;img
             src={logo2}
             alt="logo"
-            style={{ width: `${isNonMobile ? <span class="branch-0 cbranch-no" title="branch not covered" >"40%" </span>: "60%"}` }}
+            style={{ width: `${isNonMobile ? "40%" : "60%"}` }}
           /&gt;
         &lt;/div&gt;
         &lt;video src={video} autoPlay loop muted /&gt;
       &lt;/div&gt;
-      &lt;nav style={{ height: `${isNonMobile ? <span class="branch-0 cbranch-no" title="branch not covered" >"90px" </span>: "60px"}` }}&gt;
+      &lt;nav style={{ height: `${isNonMobile ? "90px" : "60px"}` }}&gt;
         &lt;img
           src={logo}
           alt="Logo"
@@ -308,7 +308,7 @@ const Navbar = () =&gt; {
           }}
         /&gt;
         {isNonMobile ? (
-<span class="branch-0 cbranch-no" title="branch not covered" >          &lt;Box display={"flex"} alignItems={"center"}&gt;</span>
+          &lt;Box display={"flex"} alignItems={"center"}&gt;
             {navLinksPage.map(<span class="fstat-no" title="function not covered" >(i</span>tem) =&gt; {
 <span class="cstat-no" title="statement not covered" >              return (</span>
                 &lt;button
@@ -364,7 +364,7 @@ export default Navbar;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-05-25T00:57:57.918Z
+                at 2023-06-12T17:06:51.088Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>

@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Context } from "../../context/Context";
 import { useContext } from "react";
+import { changeLanguage } from "../../functions/changeLanguage";
 
 const ButtonIcon = ({ text, icon, link }) => {
   const navigate = useNavigate();
@@ -15,11 +16,7 @@ const ButtonIcon = ({ text, icon, link }) => {
       className="ButtonIcon"
       data-testid="click"
       onClick={() => {
-        link == "language"
-          ? i18n.language === "es"
-            ? i18n.changeLanguage("en")
-            : i18n.changeLanguage("es")
-          : navigate(link);
+        link == "language" ? changeLanguage(i18n) : navigate(link);
         link === "/" &&
           context.setAppState({
             loggedIn: false,

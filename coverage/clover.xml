@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686601098799" clover="3.2.0">
-  <project timestamp="1686601098799" name="All files">
-    <metrics statements="312" coveredstatements="76" conditionals="104" coveredconditionals="8" methods="137" coveredmethods="26" elements="553" coveredelements="110" complexity="0" loc="312" ncloc="312" packages="26" files="29" classes="29"/>
+<coverage generated="1686602350593" clover="3.2.0">
+  <project timestamp="1686602350593" name="All files">
+    <metrics statements="310" coveredstatements="75" conditionals="102" coveredconditionals="7" methods="137" coveredmethods="26" elements="549" coveredelements="108" complexity="0" loc="310" ncloc="310" packages="26" files="29" classes="29"/>
     <package name="src">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\App.jsx">
@@ -15,18 +15,16 @@
       </file>
     </package>
     <package name="src.components.alertMessage">
-      <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="AlertMessage.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\alertMessage\AlertMessage.jsx">
-        <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="6" count="5" type="stmt"/>
-        <line num="7" count="11" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
         <line num="10" count="5" type="stmt"/>
-        <line num="11" count="5" type="stmt"/>
-        <line num="13" count="5" type="stmt"/>
-        <line num="14" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="15" count="0" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.components.buttonIcon">

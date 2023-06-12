@@ -1,6 +1,7 @@
 import React from 'react';
+import userEvent from "@testing-library/user-event";
 import '@testing-library/jest-dom/extend-expect';
-import { render, fireEvent, waitFor } from '@testing-library/react';
+import { render, fireEvent, waitFor, screen } from '@testing-library/react';
 import AlertMessage from './AlertMessage';
 
 jest.useFakeTimers(); // Simula el temporizador para el autoHideDuration
@@ -89,6 +90,16 @@ describe('AlertMessage component', () => {
   //     expect(queryByText(message)).toBeNull();
   //   });
   // });
+
+  test("should not close the alert when reason is 'clickaway'", () => {
+    render(<AlertMessage message="Test message" type="success" />);
+  
+    const closeButton = screen.getByRole("button", { name: /close/i });
+    userEvent.click(closeButton, { reason: "clickaway" });
+  
+    const alertMessage = screen.getByText("Test message");
+    expect(alertMessage).toBeInTheDocument();
+  });
 
   test('should not close the alert when reason is clickaway', async () => {
     const message = 'Test message';

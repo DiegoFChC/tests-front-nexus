@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686597315405" clover="3.2.0">
-  <project timestamp="1686597315405" name="All files">
-    <metrics statements="312" coveredstatements="74" conditionals="104" coveredconditionals="6" methods="137" coveredmethods="25" elements="553" coveredelements="105" complexity="0" loc="312" ncloc="312" packages="26" files="29" classes="29"/>
+<coverage generated="1686598414807" clover="3.2.0">
+  <project timestamp="1686598414807" name="All files">
+    <metrics statements="312" coveredstatements="76" conditionals="104" coveredconditionals="8" methods="137" coveredmethods="26" elements="553" coveredelements="110" complexity="0" loc="312" ncloc="312" packages="26" files="29" classes="29"/>
     <package name="src">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\App.jsx">
@@ -15,18 +15,18 @@
       </file>
     </package>
     <package name="src.components.alertMessage">
-      <metrics statements="9" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <file name="AlertMessage.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\alertMessage\AlertMessage.jsx">
-        <metrics statements="9" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
         <line num="6" count="5" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
         <line num="10" count="5" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.buttonIcon">
@@ -34,10 +34,10 @@
       <file name="ButtonIcon.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\buttonIcon\ButtonIcon.jsx">
         <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="9" count="7" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
         <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
       </file>
@@ -50,9 +50,9 @@
       </file>
     </package>
     <package name="src.components.cardMenu">
-      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="CardMenu.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\cardMenu\CardMenu.jsx">
-        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="4" count="4" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686656835053" clover="3.2.0">
-  <project timestamp="1686656835053" name="All files">
-    <metrics statements="308" coveredstatements="91" conditionals="100" coveredconditionals="12" methods="136" coveredmethods="35" elements="544" coveredelements="138" complexity="0" loc="308" ncloc="308" packages="26" files="29" classes="29"/>
+<coverage generated="1686658699661" clover="3.2.0">
+  <project timestamp="1686658699661" name="All files">
+    <metrics statements="308" coveredstatements="95" conditionals="100" coveredconditionals="17" methods="136" coveredmethods="36" elements="544" coveredelements="148" complexity="0" loc="308" ncloc="308" packages="26" files="29" classes="29"/>
     <package name="src">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\App.jsx">
@@ -32,10 +32,10 @@
       <file name="ButtonIcon.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\buttonIcon\ButtonIcon.jsx">
         <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="9" count="7" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="14" count="13" type="stmt"/>
         <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
@@ -138,16 +138,16 @@
       </file>
     </package>
     <package name="src.components.settings">
-      <metrics statements="7" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <file name="Settings.jsx" path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\tests-front-nexus\src\components\settings\Settings.jsx">
-        <metrics statements="7" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
         <line num="11" count="6" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.context">
